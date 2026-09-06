@@ -1,6 +1,6 @@
 {
   "name": "kira-verify",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "description": "Local verification code expiry policy fixture for documentation testing",
