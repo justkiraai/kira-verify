@@ -1,5 +1,5 @@
 /** Verification expiry policy only; this fixture never creates or validates secret codes. */
-export const DEFAULT_CODE_TTL_SECONDS = 300;
+export const DEFAULT_CODE_TTL_SECONDS = 600;
 
 /** Return expiry metadata in Unix milliseconds for a verification code. */
 export function createCodeWindow({ issuedAt = Date.now(), ttlSeconds = DEFAULT_CODE_TTL_SECONDS } = {}) {
